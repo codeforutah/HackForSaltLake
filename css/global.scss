@@ -1,0 +1,52 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background: #fff;
+}
+
+p {
+  line-height: 1;
+  letter-spacing: -0.07em;
+  font-weight: bold;
+}
+
+.red { color: #f30; }
+.blue { color: #03f; }
+.green { color: #0f3; }
+a { color: #ffa500; }
+
+#main {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 400%;
+
+  .nerds, .city, .love {
+    border-bottom: 3px dashed #000;
+    display: inline-block;
+    overflow: hidden;
+
+    &:hover {
+      .text {
+        visibility: hidden;
+      }
+      border-bottom: 3px solid #fff;
+      background-size: 200% 200%;
+    }
+  }
+  .nerds:hover {
+    background: url(/images/glasses.svg) center no-repeat;
+  }
+  .city:hover {
+    background: url(/images/city.svg) center no-repeat;
+  }
+  .love:hover {
+    background: url(/images/heart.svg) center no-repeat;
+    background-size: 80% 80%;
+  }
+}
+
+#attributions {
+  color: #666;
+  width: 80%;
+  margin: 0 auto;
+  padding: 2em 0 0;
+}
