@@ -85,11 +85,16 @@ a {
           background-image: url(/images/sponsors/cityweekly.png);
           width: 400px;
           height: 49px;
-          margin-top: 50px; }
+          margin-top: 50px;
+          margin-bottom: 90px; }
         #partners ul li a#craftlakecity {
           background-image: url(/images/sponsors/craftlakecity.png);
           width: 157px;
           height: 180px; }
+        #partners ul li a#leonardo {
+          background-image: url(/images/sponsors/leonardo.png);
+          width: 320px;
+          height: 75px; }
 
 #attributions {
   color: #666;
